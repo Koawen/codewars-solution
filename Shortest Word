@@ -1,0 +1,5 @@
+https://www.codewars.com/kata/57cebe1dc6fdc20c57000ac9/solutions/python
+def find_short(s):
+    arr = s.split(" ")
+    arr = [len(el) for el in arr]
+    return min(arr)
