@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/598ab63c7367483c890000f4/solutions/python
+def string_task(s):
+    vowels = "aoyeui"
+    s = s.lower()
+    arr = ["." + el for el in s if el not in vowels]
+    return "".join(arr)
