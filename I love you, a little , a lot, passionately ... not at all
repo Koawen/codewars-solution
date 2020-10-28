@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/57f24e6a18e9fad8eb000296
+def how_much_i_love_you(num):
+    arr = ["not at all","I love you","a little","a lot",'passionately',"madly"]
+    i = num % 6 
+    return arr[i]
+    
+    
